@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
             let isValid = true;
 
-            const inputs = [
+            const  inputs = [
                 { id: 'con-name', msg: 'Name is required.' },
                 { id: 'con-email', msg: 'Please enter a valid email.', reg: /^[^\s@]+@[^\s@]+\.[^\s@]+$/ },
                 { id: 'con-msg', msg: 'Message cannot be empty.' }
