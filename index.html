@@ -3,11 +3,416 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NayePankh Volunteer & Event Portal</title>
-
+    <title>NayePankh Foundation | UP Govt. Registered NGO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-hands-holding-child"></i> Naye<span>Pankh</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#hero" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#events">Events</a>
+                <a href="#volunteer">Volunteer</a>
+                <a href="#internships">Internships</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <a href="#contact" class="btn btn-outline donate-btn">Donate Now</a>
+                <button class="menu-toggle" aria-label="Open Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-container">
+                <span class="hero-badge">UP Government, 80G & 12A Registered NGO</span>
+                <h1>It's that easy to bring a Smile on Their Faces</h1>
+                <p>We don't ask for much, just help us with what you can — Be it Money, Skill or Your Time. Let's revolutionise the society together!</p>
+                <div class="hero-btns">
+                    <a href="#volunteer" class="btn btn-primary">Join Our Team</a>
+                    <a href="#events" class="btn btn-secondary">Our Campaigns</a>
+                </div>
+                <div class="hero-stats-strip">
+                    <span><i class="fa-solid fa-circle-check"></i> UP Government Approved</span>
+                    <span><i class="fa-solid fa-percent"></i> Tax Exempted Under 80G</span>
+                    <span><i class="fa-solid fa-shield-heart"></i> India's Leading Youth-Led NGO</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="stats" class="section-padding stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                        <span class="stat-number" data-target="200000">0</span>
+                        <p class="stat-label">Lives Impacted & Helped</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="nav-actions"><i class="fa-solid fa-users"></i></div>
+                        <span class="stat-number" data-target="1500">0</span>
+                        <p class="stat-label">Youth Volunteers</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-city"></i></div>
+                        <span class="stat-number" data-target="15">0</span>
+                        <p class="stat-label">Cities Covered (Kanpur, Ghaziabad, etc.)</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-ribbon"></i></div>
+                        <span class="stat-number" data-target="100">0</span>
+                        <p class="stat-label">Awareness Drives</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-padding about-section">
+            <div class="container">
+                <div class="about-split">
+                    <div class="about-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=600&q=80" alt="NayePankh Grassroots Outreach Focus" class="about-img">
+                    </div>
+                    <div class="about-content">
+                        <h2 class="section-title">Think global, Act local.</h2>
+                        <div class="values-stack">
+                            <div class="value-block">
+                                <h3><i class="fa-solid fa-users-line"></i> About Us</h3>
+                                <p>"NayePankh Foundation" is a non governmental organisation with a strong desire to help the society and make it a better place for all, by doing everything in our power and to make our vision successful we would require your vital support. Service to mankind is the service to god. Let’s revolutionise the society together!</p>
+                            </div>
+                            <div class="value-block">
+                                <h3><i class="fa-solid fa-feather"></i> Welcome to NayePankh Foundation</h3>
+                                <p>We are one of the Biggest Student led NGO of India with its operations extended in the city of Kanpur, Ghaziabad and various other cities. Giving wings to uplift the underprivileged section of our society.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pillars-grid">
+                    <div class="pillar-card">
+                        <i class="fa-solid fa-bowl-food"></i>
+                        <h3>Fighting Hunger</h3>
+                        <p>Distributing fresh food and essential rations to underprivileged communities as well as supporting stray animals.</p>
+                    </div>
+                    <div class="pillar-card">
+                        <i class="fa-solid fa-droplet"></i>
+                        <h3>Menstrual Hygiene</h3>
+                        <p>Creating vital hygiene awareness campaigns among women and youths and providing sanitary napkins to eliminate taboos.</p>
+                    </div>
+                    <div class="pillar-card">
+                        <i class="fa-solid fa-shirt"></i>
+                        <h3>Resource Clothing</h3>
+                        <p>Collecting, sorting, and deploying essential clothing resources to poor families and seasonal migrant communities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="events" class="section-padding events-section">
+            <div class="container">
+                <h2 class="section-title centered">Active Community Programs</h2>
+                <div class="events-grid">
+                    <div class="event-card">
+                        <div class="event-img-container">
+                            <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=400&q=80" alt="Food Distribution">
+                            <span class="status-badge">Active Campaign</span>
+                        </div>
+                        <div class="event-info">
+                            <h3>Food Distribution Drive</h3>
+                            <div class="event-meta">
+                                <span><i class="fa-solid fa-location-dot"></i> Kanpur Hubs</span>
+                            </div>
+                            <p>Grassroots food relief deployment and dry ration supply distribution packs for underserved settlements.</p>
+                            <a href="#volunteer" class="btn btn-primary card-btn">Register to Assist</a>
+                        </div>
+                    </div>
+                    <div class="event-card">
+                        <div class="event-img-container">
+                            <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=400&q=80" alt="Hygiene Drive">
+                            <span class="status-badge">Active Campaign</span>
+                        </div>
+                        <div class="event-info">
+                            <h3>Sanitary Pad Distribution</h3>
+                            <div class="event-meta">
+                                <span><i class="fa-solid fa-location-dot"></i> Ghaziabad Areas</span>
+                            </div>
+                            <p>Distributing menstrual healthcare supplies and running educational workshops on physical well-being.</p>
+                            <a href="#volunteer" class="btn btn-primary card-btn">Register to Assist</a>
+                        </div>
+                    </div>
+                    <div class="event-card">
+                        <div class="event-img-container">
+                            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=400&q=80" alt="Education Kits">
+                            <span class="status-badge">Active Campaign</span>
+                        </div>
+                        <div class="event-info">
+                            <h3>Basic Literacy Support</h3>
+                            <div class="event-meta">
+                                <span><i class="fa-solid fa-location-dot"></i> Local Slum Clusters</span>
+                            </div>
+                            <p>Providing basic stationery, foundational books, and organizing weekend open-air interactive learning circles.</p>
+                            <a href="#volunteer" class="btn btn-primary card-btn">Register to Assist</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="volunteer" class="section-padding volunteer-section">
+            <div class="container">
+                <div class="form-split">
+                    <div class="info-panel">
+                        <h2>Join Our Team</h2>
+                        <p>Join our team and make a difference in the lives of those in need. At NayePankh Foundation, we are committed to creating positive change and empowering communities. By joining our team, you will have the opportunity to contribute your time, skills, and ideas to help make a real impact.</p>
+                        <ul class="benefits-list">
+                            <li><i class="fa-solid fa-certificate"></i> NGO Work Experience Certificate</li>
+                            <li><i class="fa-solid fa-sheet-plastic"></i> Official LOR Opportunities</li>
+                            <li><i class="fa-solid fa-users"></i> Connect with a Nationwide Network of Youth</li>
+                        </ul>
+                    </div>
+                    <div class="form-card">
+                        <h3>Volunteer Application Form</h3>
+                        <form id="volunteer-form" novalidate>
+                            <div class="form-group">
+                                <label for="vol-name">Full Name</label>
+                                <input type="text" id="vol-name" placeholder="Enter your name">
+                                <span class="error-msg"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="vol-email">Email Address</label>
+                                <input type="email" id="vol-email" placeholder="Enter your email">
+                                <span class="error-msg"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="vol-phone">Phone Number</label>
+                                <input type="tel" id="vol-phone" placeholder="Enter 10-digit phone number">
+                                <span class="error-msg"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="vol-event">Area of Interest</label>
+                                <select id="vol-event">
+                                    <option value="">-- Select Interest --</option>
+                                    <option value="food">Food Distribution</option>
+                                    <option value="hygiene">Hygiene & Sanitary Drives</option>
+                                    <option value="education">Underprivileged Education</option>
+                                </select>
+                                <span class="error-msg"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="vol-msg">Why do you want to join NayePankh?</label>
+                                <textarea id="vol-msg" rows="3" placeholder="Tell us about yourself..."></textarea>
+                                <span class="error-msg"></span>
+                            </div>
+                            <button type="submit" class="btn btn-secondary w-100">Submit Application</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="internships" class="section-padding internships-section">
+            <div class="container">
+                <h2 class="section-title centered">Virtual Work From Home Internships</h2>
+                <div class="internships-grid">
+                    <div class="intern-card">
+                        <span class="intern-badge">Outreach</span>
+                        <h3>Social Impact & Fundraising Intern</h3>
+                        <div class="intern-tags">
+                            <span><i class="fa-solid fa-house-laptop"></i> Remote (WFH)</span>
+                            <span><i class="fa-solid fa-calendar"></i> 1 Month</span>
+                        </div>
+                        <p>Gain hands-on experience in social impact strategies, community engagement, and driving resource initiatives under the mentorship of NGO professionals.</p>
+                        <a href="#contact" class="btn btn-outline card-btn">Apply Now</a>
+                    </div>
+                    <div class="intern-card">
+                        <span class="intern-badge">Media</span>
+                        <h3>Community Management Intern</h3>
+                        <div class="intern-tags">
+                            <span><i class="fa-solid fa-house-laptop"></i> Remote (WFH)</span>
+                            <span><i class="fa-solid fa-calendar"></i> 1 Month</span>
+                        </div>
+                        <p>Manage and engage online support channels, coordinate public notifications, and amplify awareness campaigns across social landscapes.</p>
+                        <a href="#contact" class="btn btn-outline card-btn">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="journey" class="section-padding journey-section">
+            <div class="container">
+                <h2 class="section-title centered">Your Volunteer Journey</h2>
+                <div class="timeline">
+                    <div class="timeline-step">
+                        <div class="step-node">1</div>
+                        <h3>Apply</h3>
+                        <p>Fill out our digital onboarding form.</p>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="step-node">2</div>
+                        <h3>Onboard</h3>
+                        <p>Get assigned to your regional city hub.</p>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="step-node">3</div>
+                        <h3>Execute</h3>
+                        <p>Participate directly in localized field work.</p>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="step-node">4</div>
+                        <h3>Certify</h3>
+                        <p>Receive your certificate and performance tracking verification.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <section id="testimonials" class="section-padding testimonials-section">
+            <div class="container">
+                <h2 class="section-title centered">Words From Leadership</h2>
+                <div class="testimonials-grid" style="grid-template-columns: 1fr; max-width: 800px; margin: 0 auto;">
+                    <div class="testimonial-card" style="text-align: center;">
+                        <i class="fa-solid fa-quote-left quote-icon" style="left: 50%; transform: translateX(-50%);"></i>
+                        <p style="font-size: 1.25rem; line-height: 1.8; margin-top: 20px;">"If we all do something, then together there is no problem that we cannot solve!"</p>
+                        <div class="user-bio" style="justify-content: center; margin-top: 25px;">
+                            <div style="text-align: center;">
+                                <h4 style="font-size: 1.3rem; letter-spacing: 0.5px; margin-bottom: 4px;">PRASHANT SHUKLA</h4>
+                                <span style="font-size: 0.95rem; color: var(--text-muted);">Founder & President, NayePankh Foundation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section-padding gallery-section">
+            <div class="container">
+                <h2 class="section-title centered">Moments of Action</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=400&q=80" alt="Food Allocation">
+                        <div class="gallery-overlay"><span>Food Distribution Camp</span></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=400&q=80" alt="Youth Outreach">
+                        <div class="gallery-overlay"><span>Hygiene Awareness Campaigns</span></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=400&q=80" alt="Smiles Created">
+                        <div class="gallery-overlay"><span>Uplifting Communities</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-padding contact-section">
+            <div class="container">
+                <div class="contact-split">
+                    <div class="contact-info-panel">
+                        <h2>Get in touch</h2>
+                        <p>All our efforts are made possible only because of your support. Service to mankind is the service to god. Let’s revolutionise the society together!</p>
+                        <div class="info-rows">
+                            <div class="info-row-item">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                                <div>
+                                    <h4>Primary Office Operations</h4>
+                                    <p>Kanpur | Ghaziabad | Various other cities, India</p>
+                                </div>
+                            </div>
+                            <div class="info-row-item">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                                <div>
+                                    <h4>Official Email Channels</h4>
+                                    <p>contact@nayepankh.com</p>
+                                </div>
+                            </div>
+                            <div class="info-row-item">
+                                <i class="fa-solid fa-phone-volume"></i>
+                                <div>
+                                    <h4>Mobile Number</h4>
+                                    <p>+91-8318500748</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links-wrapper">
+                            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" aria-label="X (formerly Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-form-card">
+                        <h3>Send Us a Message</h3>
+                        <form id="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="con-name">Full Name</label>
+                                <input type="text" id="con-name" placeholder="Enter your name">
+                                <span class="error-msg"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="con-email">Email Address</label>
+                                <input type="email" id="con-email" placeholder="Enter your email">
+                                <span class="error-msg"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="con-msg">Message</label>
+                                <textarea id="con-msg" rows="4" placeholder="How can we help you?"></textarea>
+                                <span class="error-msg"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Send Inquiry</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand-col">
+                <a href="#" class="logo footer-logo">
+                    <i class="fa-solid fa-hands-holding-child"></i> Naye<span>Pankh</span>
+                </a>
+                <p>NayePankh Foundation is a UP Govt. | 80G & 12A Registered NGO. We are one of the biggest student and youth-led movements working comprehensively toward social welfare solutions.</p>
+            </div>
+            <div class="footer-links-col">
+                <h4>Follow us</h4>
+                <div class="social-links-wrapper" style="margin-top: 10px;">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="X (formerly Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-contact-col">
+                <h4>Connect</h4>
+                <p><i class="fa-solid fa-envelope"></i> contact@nayepankh.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91-8318500748</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 NayePankh Foundation. All rights reserved. Your donations are tax exempted under 80G of the Indian Income Tax Act.</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
